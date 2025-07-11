@@ -103,3 +103,43 @@ nav h2 {
 .action_img img {
     border-radius: 4.8rem;
 }
+
+/* users styles  */
+
+#users > .container {
+    background-color: hsla(242, 100%, 64%, 0.1);
+    padding: 5rem 0;
+    border-radius: 2.4rem;
+}
+
+.users_content {
+    max-width: 856px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.users_content > h3 {
+    font-size: 3.8rem;
+    margin-bottom: 4rem;
+
+}
+
+.users_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.single_box h3 {
+    font-size: 8rem;
+    color: #4E47FF;
+}
+
+.single_box p {
+    font-size: 2rem;
+    color: hsla(0, 0%, 0%, 0.5);
+}
